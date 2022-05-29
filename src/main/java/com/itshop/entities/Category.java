@@ -2,9 +2,12 @@ package com.itshop.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table
 public class Category {
+    @Id
     Long id;
     String name;
 
